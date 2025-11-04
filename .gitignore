@@ -134,3 +134,7 @@ Desktop.ini
 .env
 .env.*
 secrets.json
+
+# Data unless added manually
+**/*.npz
+**/*.pth
