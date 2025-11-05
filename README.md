@@ -46,12 +46,7 @@ Examples live in the `examples/` directory. Two scripts of particular interest:
 - `examples/sbi_KL.py` — train an ensemble on an `sbibm` benchmark and compute pairwise KL diagnostics.
 - `examples/extrapolation.py` — a synthetic Gaussian-frequency example showing ensemble training and diagnostics.
 
-You can run a short smoke test by editing the example script to reduce dataset sizes / epochs and then invoking its `run_inference` function. For example (from a Python REPL):
-
-```python
-from examples.sbi_KL import run_inference
-run_inference(num_epochs=5)
-```
+You can run a short smoke test by editing the example script to reduce dataset sizes / epochs and then just running the script.
 
 ## Project structure
 
@@ -62,7 +57,6 @@ sbi_ensemble_diagnostics/
 examples/
   sbi_KL.py
   extrapolation.py
-setup.py              # legacy packaging metadata
 pyproject.toml        # optional PEP 621 metadata (if present)
 README.md
 LICENSE
